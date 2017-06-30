@@ -15,6 +15,7 @@
 		F316297C1F05FA3200B65A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F316297A1F05FA3200B65A2D /* LaunchScreen.storyboard */; };
 		F31629871F05FA3200B65A2D /* CocoaPodsSupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31629861F05FA3200B65A2D /* CocoaPodsSupportTests.m */; };
 		F31629921F05FA3200B65A2D /* CocoaPodsSupportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31629911F05FA3200B65A2D /* CocoaPodsSupportUITests.m */; };
+		F31629A11F05FD2D00B65A2D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F31629A01F05FD2D00B65A2D /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F316298D1F05FA3200B65A2D /* CocoaPodsSupportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPodsSupportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31629911F05FA3200B65A2D /* CocoaPodsSupportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsSupportUITests.m; sourceTree = "<group>"; };
 		F31629931F05FA3200B65A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F316299F1F05FD2D00B65A2D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F31629A01F05FD2D00B65A2D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F31629701F05FA3200B65A2D /* AppDelegate.m */,
 				F31629721F05FA3200B65A2D /* ViewController.h */,
 				F31629731F05FA3200B65A2D /* ViewController.m */,
+				F316299F1F05FD2D00B65A2D /* UIView+Frame.h */,
+				F31629A01F05FD2D00B65A2D /* UIView+Frame.m */,
 				F31629751F05FA3200B65A2D /* Main.storyboard */,
 				F31629781F05FA3200B65A2D /* Assets.xcassets */,
 				F316297A1F05FA3200B65A2D /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31629A11F05FD2D00B65A2D /* UIView+Frame.m in Sources */,
 				F31629741F05FA3200B65A2D /* ViewController.m in Sources */,
 				F31629711F05FA3200B65A2D /* AppDelegate.m in Sources */,
 				F316296E1F05FA3200B65A2D /* main.m in Sources */,
